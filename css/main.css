@@ -32,6 +32,49 @@ a:focus {
   outline: 3px solid #000;
 }
 
+.red-yellow {
+  background-color: #c94742;
+  color: #f4cb70;
+}
+
+.btn {
+  border-radius: 100px;
+}
+
+.red-yellow-btn {
+  background-color: #f4cb70;
+  color: #c94742;
+  border-color: #f4cb70;
+}
+
+.banner-img {
+  background-image: url("../images/girl-with-laundry.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+
+.indigo-teal {
+  background-color: #1d2a48;
+  color: #73c8a9;
+}
+
+.indigo-teal-btn {
+  background: #73c8a9;
+  border-color: #73c8a9;
+  color: #1d2a48;
+}
+
+.yellow-indigo {
+  background-color: #f4cb70;
+  color: #1d2a48;
+}
+
+.yellow-indigo-btn {
+  background-color: #1d2a48;
+  border: #1d2a48;
+  color: #f4cb70;
+}
+
 @media only screen and (min-width: 38em) {
 
   .logo {
@@ -40,6 +83,10 @@ a:focus {
 
   .nav {
     text-align: right;
+  }
+
+  .laundry {
+    display: none;
   }
 
 }
