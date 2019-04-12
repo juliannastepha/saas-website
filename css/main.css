@@ -47,10 +47,9 @@ a:focus {
   border-color: #f4cb70;
 }
 
-.banner-img {
-  background-image: url("../images/girl-with-laundry.jpg");
-  background-size: cover;
-  background-position: center top;
+.indigo-cream {
+  background-color: #1d2a48;
+  color: #fffceb;
 }
 
 .indigo-teal {
@@ -75,6 +74,44 @@ a:focus {
   color: #f4cb70;
 }
 
+.bus-img {
+  background-image: url("../images/boy-with-headphones.jpg");
+  background-size: cover;
+  background-position: center right;
+}
+
+.red-cream {
+  background-color: #c94742;
+  color: #fffceb;
+}
+
+.red-cream-btn {
+  background-color: #fffceb;
+  border-color: #fffceb;
+  color: #c94742;
+}
+
+.cream-red {
+  background-color: #fffceb;
+  color: #c94742;
+}
+
+.teal-indigo {
+  background-color: #73c8a9;
+  color: #1d2a48;
+}
+
+.neon-instruments-img {
+  background-image: url("../images/neon-instruments.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+
+.cream-indigo {
+  background-color: #fffceb;
+  color: #1d2a48;
+}
+
 @media only screen and (min-width: 38em) {
 
   .logo {
@@ -85,7 +122,11 @@ a:focus {
     text-align: right;
   }
 
-  .laundry {
+  .bus {
+    display: none;
+  }
+
+  .neon-instruments {
     display: none;
   }
 
