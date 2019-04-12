@@ -118,6 +118,30 @@ input#name {
   border-color: #fffceb;
 }
 
+input#username {
+  border-radius: 100px;
+  background-color: #fffceb;
+  border-color: #fffceb;
+}
+
+input#email {
+  border-radius: 100px;
+  background-color: #fffceb;
+  border-color: #fffceb;
+}
+
+select#gender {
+  border-radius: 100px;
+  background-color: #fffceb;
+  border-color: #fffceb;
+}
+
+textarea#questions {
+  border-radius: 30px;
+  background-color: #fffceb;
+  border-color: #fffceb;
+}
+
 @media only screen and (min-width: 38em) {
 
   .logo {
