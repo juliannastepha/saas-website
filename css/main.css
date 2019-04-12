@@ -112,6 +112,12 @@ a:focus {
   color: #1d2a48;
 }
 
+input#name {
+  border-radius: 100px;
+  background-color: #fffceb;
+  border-color: #fffceb;
+}
+
 @media only screen and (min-width: 38em) {
 
   .logo {
