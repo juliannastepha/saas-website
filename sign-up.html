@@ -42,19 +42,23 @@
         <form class="push-0" method="POST" action="https://formspree.io/step0195@algonquinlive.com">
           <div class="push">
             <label class="pad-b-1-4" for="name">Name</label>
-            <input id="name" name="name" required>
+            <input class="textbox" id="name" type="text" name="name" required>
           </div>
           <div class="push">
             <label class="pad-b-1-4" for="username">Username</label>
-            <input id="username" name="username" required>
+            <input class="textbox" id="username" type="text" name="username" required>
+          </div>
+          <div class="push">
+            <label class="pad-b-1-4" for="password">Password</label>
+            <input class="textbox" id="password" type="password" name="password" required>
           </div>
           <div class="push">
             <label class="pad-b-1-4" for="email">Email Address</label>
-            <input id="email" type="email" name="email" required>
+            <input class="textbox" id="email" type="email" name="email" required>
           </div>
           <div class="push">
             <label class="pad-b-1-4" for="gender">Gender</label>
-            <select id="gender" name="_subject">
+            <select class="textbox" id="gender" name="_subject">
               <option>Female</option>
               <option>Male</option>
               <option>Non-binary</option>
@@ -62,17 +66,20 @@
           </div>
           <div class="push">
             <label class="pad-b-1-4" for="questions">Questions?</label>
-            <textarea id="questions" name="message" required></textarea>
+            <textarea class="questionbox" id="questions" name="message" required></textarea>
           </div>
           <div class="text-center pad-t-1-2">
             <button class="btn red-cream-btn mega text-center fredoka not-bold" type="submit">Submit</button>
           </div>
         </form>
       </div>
+      <article class="text-center pad-t pad-b">
+        <a class="learnmore text-center" href="tour.html" id="clickhere" tabindex="0">click here to learn more</a>
+      </article>
     </section>
 
     <section>
-      <figure>
+      <figure role="group">
         <div class="embed embed-1by1">
           <img class="embed-item" src="images/girl-with-headphones.jpg" alt="" aria-details="girl-with-headphones" role="presentation">
         </div>

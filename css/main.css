@@ -24,11 +24,19 @@ html {
   color: #c94742;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:focus {
   outline: 3px solid #000;
 }
 
 .nav a:focus {
+  outline: 3px solid #000;
+}
+
+.contact a:focus {
   outline: 3px solid #000;
 }
 
@@ -119,34 +127,18 @@ a:focus {
   color: #1d2a48;
 }
 
-input#name {
+.textbox {
   border-radius: 100px;
   background-color: #fffceb;
   border-color: #fffceb;
+  color: #1d2a48;
 }
 
-input#username {
-  border-radius: 100px;
+.questionbox {
+  border-radius: 20px;
   background-color: #fffceb;
   border-color: #fffceb;
-}
-
-input#email {
-  border-radius: 100px;
-  background-color: #fffceb;
-  border-color: #fffceb;
-}
-
-select#gender {
-  border-radius: 100px;
-  background-color: #fffceb;
-  border-color: #fffceb;
-}
-
-textarea#questions {
-  border-radius: 30px;
-  background-color: #fffceb;
-  border-color: #fffceb;
+  color: #1d2a48;
 }
 
 .red-yellow-btn:hover {
@@ -171,6 +163,14 @@ textarea#questions {
   background-color: #1d2a48;
   border-color: #1d2a48;
   color: #fffceb;
+}
+
+.learnmore {
+  color: #fffceb;
+}
+
+.learnmore:hover {
+  color: #f4cb70;
 }
 
 @media only screen and (min-width: 38em) {
