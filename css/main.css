@@ -142,6 +142,30 @@ textarea#questions {
   border-color: #fffceb;
 }
 
+.red-yellow-btn:hover {
+  background-color: #fffceb;
+  border-color: #fffceb;
+  color: #c94742;
+}
+
+.indigo-teal-btn:hover {
+  background-color: #fffceb;
+  border-color: #fffceb;
+  color: #1d2a48;
+}
+
+.yellow-indigo-btn:hover {
+  background-color: #fffceb;
+  border-color: #fffceb;
+  color: #1d2a48;
+}
+
+.red-cream-btn:hover {
+  background-color: #1d2a48;
+  border-color: #1d2a48;
+  color: #fffceb;
+}
+
 @media only screen and (min-width: 38em) {
 
   .logo {
